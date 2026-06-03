@@ -6,5 +6,7 @@
   "aemAssetsFolderPath": "/content/dam/gkoni-pilot-UE",
   "aemSiteName": "gkoni-pilot-UE",
   "aemSiteTitle": "gkoni-pilot-UE",
-  "baseUrl": "https://gururajkoni.dev/"
+  "baseUrl": "https://gururajkoni.dev/",
+  "previewOrg": "gururajkoni04",
+  "previewSite": "pilot-universal-v2"
 }

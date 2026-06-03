@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  border-bottom: 1px solid var(--card-border, #1e3a5f);
 }
 
 header nav {
@@ -72,7 +73,7 @@ header nav .nav-hamburger button {
   border: 0;
   border-radius: 0;
   padding: 0;
-  background-color: var(--background-color);
+  background-color: transparent;
   color: inherit;
   overflow: initial;
   text-overflow: initial;
@@ -146,6 +147,12 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+  color: var(--heading-color, #fff);
+}
+
+header .nav-brand a:any-link {
+  color: var(--heading-color, #fff);
+  text-decoration: none;
 }
 
 header nav .nav-brand img {
@@ -175,6 +182,7 @@ header nav .nav-sections ul {
 
 header nav .nav-sections ul > li {
   font-weight: 500;
+  color: var(--muted-color, #8892b0);
 }
 
 header nav .nav-sections ul > li > ul {
@@ -183,6 +191,11 @@ header nav .nav-sections ul > li > ul {
 
 header nav .nav-sections ul > li > ul > li {
   font-weight: 400;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+header nav .nav-sections ul > li:hover {
+  color: var(--link-color, #64ffda);
 }
 
 @media (width >= 900px) {

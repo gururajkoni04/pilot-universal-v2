@@ -1,6 +1,8 @@
 footer {
-  background-color: var(--light-color);
+  background-color: var(--dark-color, #060810);
+  border-top: 1px solid var(--card-border, #1e3a5f);
   font-size: var(--body-font-size-xs);
+  color: var(--muted-color, #8892b0);
 }
 
 footer .footer > div {
@@ -11,6 +13,10 @@ footer .footer > div {
 
 footer .footer p {
   margin: 0;
+}
+
+footer .footer a:any-link {
+  color: var(--link-color, #64ffda);
 }
 
 @media (width >= 900px) {
