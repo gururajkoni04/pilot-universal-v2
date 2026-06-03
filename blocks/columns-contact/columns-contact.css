@@ -1,33 +1,71 @@
 .columns-contact > div {
   display: flex;
   flex-direction: column;
+  gap: 32px;
 }
 
-.columns-contact img {
-  width: 100%;
-}
-
-.columns-contact > div > div {
+.columns-contact > div > div:first-child {
   order: 1;
 }
 
-.columns-contact > div > .columns-contact-img-col {
-  order: 0;
+.columns-contact > div > div:first-child h4 {
+  color: var(--heading-color, #fff);
+  font-size: var(--heading-font-size-m);
+  margin-bottom: 24px;
 }
 
-.columns-contact > div > .columns-contact-img-col img {
-  display: block;
+.columns-contact > div > div:first-child p {
+  color: var(--muted-color, #8892b0);
+  padding: 12px 16px;
+  background-color: var(--card-background, #112240);
+  border: 1px solid var(--card-border, #1e3a5f);
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.columns-contact > div > div:first-child a {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 32px;
+  background-color: var(--accent-color, #48bb78);
+  color: #fff;
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.columns-contact > div > div:first-child a:hover {
+  background-color: var(--accent-hover-color, #38a169);
+}
+
+.columns-contact > div > div:last-child {
+  order: 0;
+  text-align: center;
+}
+
+.columns-contact img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
 }
 
 @media (width >= 900px) {
   .columns-contact > div {
+    flex-direction: row;
     align-items: center;
-    flex-direction: unset;
-    gap: 24px;
   }
 
   .columns-contact > div > div {
     flex: 1;
+    order: unset;
+  }
+
+  .columns-contact > div > div:first-child {
+    order: unset;
+  }
+
+  .columns-contact > div > div:last-child {
     order: unset;
   }
 }
