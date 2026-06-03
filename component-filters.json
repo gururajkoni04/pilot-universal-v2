@@ -19,9 +19,48 @@
     ]
   },
   {
+    "id": "cards-icon",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "cards-service",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "carousel-blog",
+    "components": [
+      "carousel-blog-item"
+    ]
+  },
+  {
+    "id": "carousel-portfolio",
+    "components": [
+      "carousel-portfolio-item"
+    ]
+  },
+  {
+    "id": "columns-contact",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {

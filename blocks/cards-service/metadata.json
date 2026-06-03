@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-service",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-02T06:22:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gururajkoni.dev/",
+    "originPage": "personal portfolio homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "service-offering",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + title + description",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "service offering pages",
+      "feature highlight sections",
+      "capability showcases with images and descriptions"
+    ],
+    "notSuitableFor": [
+      "icon-only grids without descriptions",
+      "product listing cards with prices",
+      "blog article cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T06:22:00.000Z"
+  }
+}

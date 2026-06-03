@@ -1,0 +1,41 @@
+{
+  "variantName": "hero-romantic",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-02T07:47:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gururajkoni.dev/hinata",
+    "originPage": "personal romantic proposal page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "romantic-proposal",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + paragraph + 2 CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "personal romantic pages",
+      "proposal or celebration pages",
+      "light/pastel themed hero sections with prominent image",
+      "pages with decorative cursive headings"
+    ],
+    "notSuitableFor": [
+      "corporate or professional pages",
+      "dark themed hero sections",
+      "pages without prominent imagery",
+      "multi-column hero layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/hinata"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T07:47:00.000Z"
+  }
+}

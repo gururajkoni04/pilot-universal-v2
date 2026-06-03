@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-blog",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-06-02T06:22:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gururajkoni.dev/",
+    "originPage": "personal portfolio homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "blog-articles",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + title + date + snippet per slide",
+    "buttonCount": 0,
+    "imageCount": 5
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog post carousels",
+      "article listing sliders",
+      "news feed rotating displays"
+    ],
+    "notSuitableFor": [
+      "single hero image carousels",
+      "product gallery sliders",
+      "testimonial carousels without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T06:22:00.000Z"
+  }
+}
