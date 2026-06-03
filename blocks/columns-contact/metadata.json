@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-contact",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-06-02T06:22:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gururajkoni.dev/",
+    "originPage": "personal portfolio homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "contact-form",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "form content + illustration image (2 columns)",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "contact form sections with illustration",
+      "two-column form + image layouts",
+      "inquiry sections with visual element"
+    ],
+    "notSuitableFor": [
+      "multi-column text layouts",
+      "comparison layouts",
+      "feature grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T06:22:00.000Z"
+  }
+}

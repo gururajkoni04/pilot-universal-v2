@@ -1,0 +1,12 @@
+{
+  "type": "xwalk",
+  "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
+  "contentHostUrl": "author-p18752-e1275089.adobeaemcloud.com",
+  "aemSitePath": "/content/gkoni-pilot-UE",
+  "aemAssetsFolderPath": "/content/dam/gkoni-pilot-UE",
+  "aemSiteName": "gkoni-pilot-UE",
+  "aemSiteTitle": "gkoni-pilot-UE",
+  "baseUrl": "https://gururajkoni.dev/",
+  "previewOrg": "gururajkoni04",
+  "previewSite": "pilot-universal-v2"
+}

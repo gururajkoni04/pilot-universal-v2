@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-portfolio",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-02T06:22:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gururajkoni.dev/",
+    "originPage": "personal portfolio homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "purpose": "portfolio-hero",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "heading + subheading + 1 CTA",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "personal portfolio pages",
+      "developer landing pages",
+      "dark themed hero sections without background images"
+    ],
+    "notSuitableFor": [
+      "product pages with hero images",
+      "marketing landing pages with multiple CTAs",
+      "light themed websites"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T06:22:00.000Z"
+  }
+}

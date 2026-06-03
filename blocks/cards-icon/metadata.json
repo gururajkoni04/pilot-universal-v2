@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-icon",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-06-02T06:22:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://gururajkoni.dev/",
+    "originPage": "personal portfolio homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "technology-skills",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon image + technology name",
+    "buttonCount": 0,
+    "imageCount": 11
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "technology skill grids",
+      "icon-based feature lists",
+      "tool and framework showcases"
+    ],
+    "notSuitableFor": [
+      "content-heavy cards with descriptions",
+      "cards with large hero images",
+      "product listing cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-02T06:22:00.000Z"
+  }
+}

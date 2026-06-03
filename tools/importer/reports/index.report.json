@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://gururajkoni.dev/",
+  "path": "index",
+  "timestamp": "2026-06-02T06:45:27.263Z",
+  "title": "Gururaj Koni - Full Stack Developer & AEM Specialist | Portfolio",
+  "template": "homepage",
+  "blocks": [
+    "hero-portfolio",
+    "cards-icon",
+    "cards-service",
+    "carousel-blog",
+    "carousel-portfolio",
+    "columns-contact"
+  ]
+}

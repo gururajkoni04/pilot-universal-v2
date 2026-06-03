@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://gururajkoni.dev/"
+      ],
+      "description": "Personal portfolio homepage with hero, about, and project sections",
+      "blocks": [
+        {
+          "name": "hero-portfolio",
+          "instances": [
+            "div.relative.w-screen.h-screen > section > div[class^=\"_container_11uuf\"]"
+          ]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [
+            "div[class^=\"_tech_container_1bjz1\"]"
+          ]
+        },
+        {
+          "name": "cards-service",
+          "instances": [
+            "div[class^=\"_card_container_hvhor\"]"
+          ]
+        },
+        {
+          "name": "carousel-blog",
+          "instances": [
+            "div[class^=\"_carouselContainer_tegko\"]"
+          ]
+        },
+        {
+          "name": "carousel-portfolio",
+          "instances": [
+            "div[class^=\"_carousel_wrapper_1jk4x\"]"
+          ]
+        },
+        {
+          "name": "columns-contact",
+          "instances": [
+            "div[class^=\"_container_1iknq\"]"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero",
+          "selector": "div.relative.w-screen.h-screen",
+          "style": null,
+          "blocks": [
+            "hero-portfolio"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-about",
+          "name": "About",
+          "selector": "section.max-w-\\[90\\%\\]:nth-of-type(1)",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            "h1[class^=\"_title_1dw4f\"]",
+            "div[class^=\"_para_1dw4f\"]"
+          ]
+        },
+        {
+          "id": "section-3-technologies",
+          "name": "Technologies",
+          "selector": "section.max-w-\\[90\\%\\]:nth-of-type(2)",
+          "style": "dark",
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-services",
+          "name": "Services",
+          "selector": "section.max-w-\\[90\\%\\]:nth-of-type(3)",
+          "style": "dark",
+          "blocks": [
+            "cards-service"
+          ],
+          "defaultContent": [
+            "h1[class^=\"_title_hvhor\"]",
+            "p[class^=\"_subtitle_hvhor\"]"
+          ]
+        },
+        {
+          "id": "section-5-blogs",
+          "name": "Blogs",
+          "selector": "section.max-w-\\[90\\%\\]:nth-of-type(4) > section",
+          "style": "dark",
+          "blocks": [
+            "carousel-blog"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6-works",
+          "name": "Works",
+          "selector": "section.max-w-\\[90\\%\\]:nth-of-type(5)",
+          "style": "dark",
+          "blocks": [
+            "carousel-portfolio"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7-contact",
+          "name": "Contact",
+          "selector": "div.contact section",
+          "style": "dark",
+          "blocks": [
+            "columns-contact"
+          ],
+          "defaultContent": [
+            "h1[class^=\"_title_1iknq\"]",
+            "p[class^=\"_subtitle_1iknq\"]"
+          ]
+        },
+        {
+          "id": "section-8-footer",
+          "name": "Footer",
+          "selector": "section[id^=\"_footer_1ez18\"]",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": []
+        }
+      ]
+    },
+    {
+      "name": "hinata-page",
+      "urls": [
+        "https://gururajkoni.dev/hinata"
+      ],
+      "description": "Hinata sub-page",
+      "blocks": [
+        {
+          "name": "hero-romantic",
+          "instances": [
+            "#question-card"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-question",
+          "name": "Question",
+          "selector": "#question-card",
+          "style": "rose-gradient",
+          "blocks": [
+            "hero-romantic"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}
