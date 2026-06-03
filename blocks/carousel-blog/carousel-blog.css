@@ -82,11 +82,19 @@
 }
 
 .carousel-blog .carousel-blog-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 16px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 6px 12px;
-  padding: 16px;
+  line-height: 0;
+}
+
+.carousel-blog .carousel-blog-slide-indicator {
+  list-style: none;
+  font-size: 0;
   line-height: 0;
 }
 
@@ -100,6 +108,8 @@
   background-color: var(--card-border, #1e3a5f);
   transition: background-color 0.2s;
   cursor: pointer;
+  font-size: 0;
+  line-height: 0;
 }
 
 .carousel-blog .carousel-blog-slide-indicator button:disabled,
