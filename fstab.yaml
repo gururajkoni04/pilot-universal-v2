@@ -1,6 +1,0 @@
-mountpoints:
-  /:
-    url: "https://author-p18752-e1275089.adobeaemcloud.com/bin/franklin.delivery/gururajkoni04/pilot-universal-v2/main"
-    type: "markup"
-    suffix: ".html"
-    
